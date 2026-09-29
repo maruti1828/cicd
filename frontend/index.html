@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Health Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Service Health Dashboard</h1>
+    <p class="subtitle">Simple application for practising CI/CD and deployment.</p>
+
+    <section class="card">
+      <h2>Backend Status</h2>
+      <p id="status">Checking...</p>
+      <button onclick="checkHealth()">Check Again</button>
+    </section>
+
+    <section class="card">
+      <h2>Application Info</h2>
+      <p id="info">Loading...</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
